@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+    <link rel="stylesheet" href="INICIOFINAL.html">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body id="cuerpo_land">
+  <div class="section-mobile">
+    <img src="https://18.236.91.247/wp-content/uploads/2023/04/logoArchfee-02.png" alt="Img archfee" class="archcarr logo-mobile" id="archmorado">
+    <div class="menu-icon">
+      <i class="fas fa-bars"></i> <!-- Ícono de menú -->
+    </div>
+    
+  </div>
+  <div class="button-container menu-mobile">
+    <div class="button-container1">
+      <button id="inscribete" class="botonini">
+        <img src="https://18.236.91.247/wp-content/uploads/2023/05/flechaLoginBlanca.png" alt="Flecha" class="menuarrw">Inscríbete y sé parte <br>de esta Comunidad
+      </button>
+    </div>
+    <div id="contenedor-menu-inscribete" class="menu-inscribete-computador">
+      <form action="" id="form-inscribete">
+          <input class="form-inscribete-input" type="text" placeholder="Nombre" title="Introduce tu Nombre.">
+          <br>
+          <input class="form-inscribete-input" type="text" placeholder="Apellido" title="Introduce tu primer Apellido.">
+          <br>
+          <input class="form-inscribete-input" type="text" placeholder="Carnet de Identidad" title="Introduce tu RUT.">
+          <br>
+          <input class="form-inscribete-input" type="text" placeholder="Número de Serie" title="Introduce tu Número de Serie o Número de Documento ubicado en tu Carnet de Identidad.">
+          <br>
+          <p class="archfee-parrafo">*Archfee corroborará con tu Rut y los datos del <br>Registro Civil de Chile que eres Arquitecto y que estás <br>habilitado para ejercer la profesión en Chile.</p>
+          <select id="Universidad" name="Universidad" title="Selecciona la Universidad donde obtuviste tu título de Arquitecto.">
+            <option value="">Universidad donde te titulaste de Arquitecto</option>
+            <option value="UNIVERSIDAD CATOLICA DE CHILE">UNIVERSIDAD CATOLICA DE CHILE</option>
+            <option value="UNIVERSIDAD CATOLICA DE VALPARAISO">UNIVERSIDAD CATOLICA DE VALPARAISO</option>
+            <option value="UNIVERSIDAD ANDRES BELLO">UNIVERSIDAD ANDRES BELLO</option>
+            <option value="UNIVERSIDAD ARTURO PRAT">UNIVERSIDAD ARTURO PRAT</option>
+            <option value="UNIVERSIDAD AUSTRAL DE CHILE">UNIVERSIDAD AUSTRAL DE CHILE</option>
+            <option value="UNIVERSIDAD AUTONOMA DE CHILE">UNIVERSIDAD AUTONOMA DE CHILE</option>
+            <option value="UNIVERSIDAD CATOLICA DEL NORTE">UNIVERSIDAD CATOLICA DEL NORTE</option>
+            <option value="UNIVERSIDAD CENTRAL DE CHILE">UNIVERSIDAD CENTRAL DE CHILE</option>
+            <option value="UNIVERSIDAD DE ACONCAGUA">UNIVERSIDAD DE ACONCAGUA</option>
+            <option value="UNIVERSIDAD ARCIS">UNIVERSIDAD ARCIS</option>
+            <option value="UNIVERSIDAD UNIACC">UNIVERSIDAD UNIACC</option>
+            <option value="UNIVERSIDAD DE CHILE">UNIVERSIDAD DE CHILE</option>
+            <option value="UNIVERSIDAD DE CONCEPCION">UNIVERSIDAD DE CONCEPCION</option>
+            <option value="UNIVERSIDAD DE LA SERENA">UNIVERSIDAD DE LA SERENA</option>
+            <option value="UNIVERSIDAD DE LAS AMERICAS">UNIVERSIDAD DE LAS AMERICAS</option>
+            <option value="UNIVERSIDAD DE LOS LAGOS">UNIVERSIDAD DE LOS LAGOS</option>
+            <option value="UNIVERSIDAD DE MAGALLANES">UNIVERSIDAD DE MAGALLANES</option>
+            <option value="UNIVERSIDAD DE SANTIAGO DE CHILE">UNIVERSIDAD DE SANTIAGO DE CHILE</option>
+            <option value="UNIVERSIDAD DE TALCA">UNIVERSIDAD DE TALCA</option>
+            <option value="UNIVERSIDAD DE VALPARAISO">UNIVERSIDAD DE VALPARAISO</option>
+            <option value="UNIVERSIDAD DE VIÑA DEL MAR">UNIVERSIDAD DE VIÑA DEL MAR</option>
+            <option value="UNIVERSIDAD DEL BIO-BIO">UNIVERSIDAD DEL BIO-BIO</option>
+            <option value="UNIVERSIDAD DEL DESARROLLO">UNIVERSIDAD DEL DESARROLLO</option>
+            <option value="UNIVERSIDAD DEL MAR">UNIVERSIDAD DEL MAR</option>
+            <option value="UNIVERSIDAD DIEGO PORTALES">UNIVERSIDAD DIEGO PORTALES</option>
+            <option value="UNIVERSIDAD FINIS TERRAE">UNIVERSIDAD FINIS TERRAE</option>
+            <option value="UNIVERSIDAD LA REPUBLICA">UNIVERSIDAD LA REPUBLICA</option>
+            <option value="U. LOS LEONES EX MARITIMA">U. LOS LEONES EX MARITIMA</option>
+            <option value="UNIVERSIDAD MAYOR">UNIVERSIDAD MAYOR</option>
+            <option value="UNIVERSIDAD PEDRO DE VALDIVIA">UNIVERSIDAD PEDRO DE VALDIVIA</option>
+            <option value="UNIVERSIDAD SAN SEBASTIAN">UNIVERSIDAD SAN SEBASTIAN</option>
+            <option value="U. TECNICA FEDERICO SANTA MARIA">U. TECNICA FEDERICO SANTA MARIA</option>
+            <option value="U. TECNOLOGICA METROPOLITANA">U. TECNOLOGICA METROPOLITANA</option>
+            <option value="UNIVERSIDAD UCINF">UNIVERSIDAD UCINF</option>
+            <option value="TITULACIÓN EN EL EXTRANJERO">TITULACIÓN EN EL EXTRANJERO</option>
+          </select>
+          <br>
+          <input class="form-inscribete-input" type="text" placeholder="Año en que te titulaste de Arquitecto" title="Introduce tu Año de Egreso de la Universidad.">
+          <br>
+          <input class="form-inscribete-input" type="email" placeholder="Email" title="Introduce un Email de contacto.">
+          <br>
+          <input class="form-inscribete-input" type="password" placeholder="Contraseña" title="Introduce una Contraseña. Se recomienda añadir Mayúsculas, números y símbolos.">
+          <br>
+          <input class="form-inscribete-input" type="text" placeholder="Código de Invitación" title="Introduce el Código de Invitación que te fue compartido.">
+          <br>
+          <div id="terminos-de-uso">
+            <input type="checkbox" id="checkbox-archfee">
+            <p id="texto-terminos-de-uso">Acepto los <a id="terminos-de-uso-link" href="https://18.236.91.247/?page_id=1408">Términos de Uso</a></p>
+          </div>
+          <div id="contenedor-boton-continuar">
+            <button id="boton-continuar">Continuar</button>
+          </div>
+          <div id="contenedor-pop-up">
+            <p id="mensaje-pop-up-activacion"> Hemos enviado un Link <br>de Activación de tu Perfil <br>a tu Correo Electrónico</p>
+          </div>
+      </form>
+    </div>
+    <div class="button-container2">
+          <button id="accedesi" class="botonini">
+            <img src="https://18.236.91.247/wp-content/uploads/2023/05/flechaLoginBlanca_1.png" alt="Flecha" class="menuarrw">Ingresa si ya eres <br>Miembro
+          </button>
+          <div id="contenedor-menu-accede" class="menu-accede-computador">
+            <form id="form-accede">
+              <hr id="barra-sobre-email">
+              <input type="email" placeholder="Email">
+              <br>
+              <input type="password" placeholder="Contraseña">
+              <a href="#">¿Olvidaste tu Contraseña?</a>
+              <div class="botonesinicioses">
+                <button id="dashboard">
+                  <p>Accede a tu dashboard</p>
+                </button>
+                <br>
+                <br>
+                <button class="button" id="webarchfee">
+                  <a href="https://18.236.91.247/?page_id=1408">Accede a Web Archfee</a>
+                </button>
+              </div>
+            </form>
+          </div>
+    </div>
+  </div>
+  <div class="section-1">
+    <div class="textocarr">
+      <img src="https://18.236.91.247/wp-content/uploads/2023/04/logoArchfee-02.png" alt="Img archfee" class="archcarr active" id="archmorado">
+      <img src="https://18.236.91.247/wp-content/uploads/2023/04/Logo-Blanco-02.png" alt="Img archfee" class="archcarr" id="archblanco">
+      <p class="textoincarru">La primera <br><b>plataforma<br>colaborativa de<br>honorarios</b> para<br>arquitectos</p>
+      <p class="textonaranja text-mobile">"Archfee ayuda a los <br>arquitectos a trabajar <br>en mejores condiciones <br>para que puedan <br>desplegar todo su <br>talento creativo."</p>
+    </div>
+    <div class="carrousel">
+      <img src="https://18.236.91.247/wp-content/uploads/2024/06/juntos-pc2.jpg" alt="Imagen 1" class="imgcarr active" id="img1">
+      <img src="https://18.236.91.247/wp-content/uploads/2024/05/morado-woman.jpg" alt="Imagen 2" class="imgcarr" id="img2">
+      <img src="https://18.236.91.247/wp-content/uploads/2024/05/morado-man.jpg" alt="Imagen 3" class="imgcarr" id="img3">
+      <img src="https://18.236.91.247/wp-content/uploads/2024/06/pc-alone.jpg" alt="Imagen 4" class="imgcarr" id="img4">
+    </div>
+    <div class="indicators">
+      <span class="indicator active" data-index="0"></span>
+      <span class="indicator" data-index="1"></span>
+      <span class="indicator" data-index="2"></span>
+      <span class="indicator" data-index="3"></span>
+    </div>
+  </div>
+  <div class="section-2">
+    <img src="https://18.236.91.247/wp-content/uploads/2023/04/Archfee-E_Mesa-de-trabajo-1.png" alt="ImagenE" class="imagen-e">
+    <div class="text-section2">
+      <p class="textonaranja">"Archfee ayuda a los <br>arquitectos a trabajar <br>en mejores condiciones <br>para que puedan <br>desplegar todo su <br>talento creativo."</p>
+      <p class="copyright-text">Copyright © 2022 Archfee SpA. | Todos los derechos reservados</p>
+    </div>
+    <div class="button-container">
+      <div class="button-container1">
+        <button id="inscribete" class="botonini">
+          Inscríbete y sé parte <br>de esta Comunidad<img src="https://18.236.91.247/wp-content/uploads/2023/05/flechaLoginBlanca.png" alt="Flecha" class="menuarrw">
+        </button>
+      </div>
+      <div id="contenedor-menu-inscribete" class="menu-inscribete-computador">
+        <form action="" id="form-inscribete">
+            <input class="form-inscribete-input" type="text" placeholder="Nombre" title="Introduce tu Nombre.">
+            <br>
+            <input class="form-inscribete-input" type="text" placeholder="Apellido" title="Introduce tu primer Apellido.">
+            <br>
+            <input class="form-inscribete-input" type="text" placeholder="Carnet de Identidad" title="Introduce tu RUT.">
+            <br>
+            <input class="form-inscribete-input" type="text" placeholder="Número de Serie" title="Introduce tu Número de Serie o Número de Documento ubicado en tu Carnet de Identidad.">
+            <br>
+            <p class="archfee-parrafo">*Archfee corroborará con tu Rut y los datos del <br>Registro Civil de Chile que eres Arquitecto y que estás <br>habilitado para ejercer la profesión en Chile.</p>
+            <select id="Universidad" name="Universidad" title="Selecciona la Universidad donde obtuviste tu título de Arquitecto.">
+              <option value="">Universidad donde te titulaste de Arquitecto</option>
+              <option value="UNIVERSIDAD CATOLICA DE CHILE">UNIVERSIDAD CATOLICA DE CHILE</option>
+              <option value="UNIVERSIDAD CATOLICA DE VALPARAISO">UNIVERSIDAD CATOLICA DE VALPARAISO</option>
+              <option value="UNIVERSIDAD ANDRES BELLO">UNIVERSIDAD ANDRES BELLO</option>
+              <option value="UNIVERSIDAD ARTURO PRAT">UNIVERSIDAD ARTURO PRAT</option>
+              <option value="UNIVERSIDAD AUSTRAL DE CHILE">UNIVERSIDAD AUSTRAL DE CHILE</option>
+              <option value="UNIVERSIDAD AUTONOMA DE CHILE">UNIVERSIDAD AUTONOMA DE CHILE</option>
+              <option value="UNIVERSIDAD CATOLICA DEL NORTE">UNIVERSIDAD CATOLICA DEL NORTE</option>
+              <option value="UNIVERSIDAD CENTRAL DE CHILE">UNIVERSIDAD CENTRAL DE CHILE</option>
+              <option value="UNIVERSIDAD DE ACONCAGUA">UNIVERSIDAD DE ACONCAGUA</option>
+              <option value="UNIVERSIDAD ARCIS">UNIVERSIDAD ARCIS</option>
+              <option value="UNIVERSIDAD UNIACC">UNIVERSIDAD UNIACC</option>
+              <option value="UNIVERSIDAD DE CHILE">UNIVERSIDAD DE CHILE</option>
+              <option value="UNIVERSIDAD DE CONCEPCION">UNIVERSIDAD DE CONCEPCION</option>
+              <option value="UNIVERSIDAD DE LA SERENA">UNIVERSIDAD DE LA SERENA</option>
+              <option value="UNIVERSIDAD DE LAS AMERICAS">UNIVERSIDAD DE LAS AMERICAS</option>
+              <option value="UNIVERSIDAD DE LOS LAGOS">UNIVERSIDAD DE LOS LAGOS</option>
+              <option value="UNIVERSIDAD DE MAGALLANES">UNIVERSIDAD DE MAGALLANES</option>
+              <option value="UNIVERSIDAD DE SANTIAGO DE CHILE">UNIVERSIDAD DE SANTIAGO DE CHILE</option>
+              <option value="UNIVERSIDAD DE TALCA">UNIVERSIDAD DE TALCA</option>
+              <option value="UNIVERSIDAD DE VALPARAISO">UNIVERSIDAD DE VALPARAISO</option>
+              <option value="UNIVERSIDAD DE VIÑA DEL MAR">UNIVERSIDAD DE VIÑA DEL MAR</option>
+              <option value="UNIVERSIDAD DEL BIO-BIO">UNIVERSIDAD DEL BIO-BIO</option>
+              <option value="UNIVERSIDAD DEL DESARROLLO">UNIVERSIDAD DEL DESARROLLO</option>
+              <option value="UNIVERSIDAD DEL MAR">UNIVERSIDAD DEL MAR</option>
+              <option value="UNIVERSIDAD DIEGO PORTALES">UNIVERSIDAD DIEGO PORTALES</option>
+              <option value="UNIVERSIDAD FINIS TERRAE">UNIVERSIDAD FINIS TERRAE</option>
+              <option value="UNIVERSIDAD LA REPUBLICA">UNIVERSIDAD LA REPUBLICA</option>
+              <option value="U. LOS LEONES EX MARITIMA">U. LOS LEONES EX MARITIMA</option>
+              <option value="UNIVERSIDAD MAYOR">UNIVERSIDAD MAYOR</option>
+              <option value="UNIVERSIDAD PEDRO DE VALDIVIA">UNIVERSIDAD PEDRO DE VALDIVIA</option>
+              <option value="UNIVERSIDAD SAN SEBASTIAN">UNIVERSIDAD SAN SEBASTIAN</option>
+              <option value="U. TECNICA FEDERICO SANTA MARIA">U. TECNICA FEDERICO SANTA MARIA</option>
+              <option value="U. TECNOLOGICA METROPOLITANA">U. TECNOLOGICA METROPOLITANA</option>
+              <option value="UNIVERSIDAD UCINF">UNIVERSIDAD UCINF</option>
+              <option value="TITULACIÓN EN EL EXTRANJERO">TITULACIÓN EN EL EXTRANJERO</option>
+            </select>
+            <br>
+            <input class="form-inscribete-input" type="text" placeholder="Año en que te titulaste de Arquitecto" title="Introduce tu Año de Egreso de la Universidad.">
+            <br>
+            <input class="form-inscribete-input" type="email" placeholder="Email" title="Introduce un Email de contacto.">
+            <br>
+            <input class="form-inscribete-input" type="password" placeholder="Contraseña" title="Introduce una Contraseña. Se recomienda añadir Mayúsculas, números y símbolos.">
+            <br>
+            <input class="form-inscribete-input" type="text" placeholder="Código de Invitación" title="Introduce el Código de Invitación que te fue compartido.">
+            <br>
+            <div id="terminos-de-uso">
+              <input type="checkbox" id="checkbox-archfee">
+              <p id="texto-terminos-de-uso">Acepto los <a id="terminos-de-uso-link" href="https://18.236.91.247/?page_id=1408">Términos de Uso</a></p>
+            </div>
+            <div id="contenedor-boton-continuar">
+              <button id="boton-continuar">Continuar</button>
+            </div>
+            <div id="contenedor-pop-up">
+              <p id="mensaje-pop-up-activacion"> Hemos enviado un Link <br>de Activación de tu Perfil <br>a tu Correo Electrónico</p>
+            </div>
+            
+        </form>
+      </div>
+      <div class="button-container2">
+            <button id="accedesi" class="botonini">
+              Accede si ya <br>eres Miembro<img src="https://18.236.91.247/wp-content/uploads/2023/05/flechaLoginBlanca_1.png" alt="Flecha" class="menuarrw">
+            </button>
+            <div id="contenedor-menu-accede" class="menu-accede-computador">
+              <form id="form-inicio">
+                <hr id="hrses">
+                <input type="email" placeholder="Email">
+                <br>
+                <input type="password" placeholder="Contraseña">
+                <a href="#">¿Olvidaste tu Contraseña?</a>
+                <div class="botonesinicioses">
+                  <button id="dashboard">
+                    <p>Accede a tu dashboard</p>
+                  </button>
+                  <br>
+                  <br>
+                  <button class="button" id="webarchfee">
+                    <a href="https://18.236.91.247/?page_id=1408">Accede a Web Archfee</a>
+                  </button>
+                </div>
+              </form>
+            </div>
+      </div>
+    </div>
+  </div>
+ 
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const images = document.querySelectorAll('.imgcarr');
+        const textoincarru = document.querySelector('.textoincarru');
+        const archmorado = document.getElementById('archmorado');
+        const archblanco = document.getElementById('archblanco');
+        const indicators = document.querySelectorAll('.indicator');
+        const btnMenu = document.querySelector('.menu-icon');
+        const menuMobile = document.querySelector('.menu-mobile');
+        const txtNaranMobile = document.querySelector('.textonaranja.text-mobile');
+        let currentIndex = 0;
+        let intervalId;
+
+
+  
+        // Funcion para el carrusel
+        function showImage(index) {
+          images[currentIndex].classList.remove('active');
+          indicators[currentIndex].classList.remove('active');
+          currentIndex = index;
+          images[currentIndex].classList.add('active');
+          indicators[currentIndex].classList.add('active');
+  
+          // Cambiar color del texto y logo según la imagen actual
+          if (currentIndex === 1 || currentIndex === 2) {
+            textoincarru.classList.add('white-text');
+            txtNaranMobile.classList.add('active');
+            archmorado.classList.remove('active');
+            archblanco.classList.add('active');
+          } else {
+            textoincarru.classList.remove('white-text');
+            txtNaranMobile.classList.remove('active');
+            archmorado.classList.add('active');
+            archblanco.classList.remove('active');
+          }
+        }
+        function showNextImage() {
+          showImage((currentIndex + 1) % images.length);
+        }
+  
+        function startCarousel() {
+          intervalId = setInterval(showNextImage, 5000);
+        }
+  
+        function stopCarousel() {
+          clearInterval(intervalId);
+        }
+  
+        indicators.forEach((indicator, index) => {
+          indicator.addEventListener('click', () => {
+            stopCarousel();
+            showImage(index);
+            startCarousel();
+          });
+        });
+  
+        startCarousel();
+
+
+        function toggleMenu(){
+          menuMobile.classList.toggle('menu-active');
+        }
+
+        btnMenu.addEventListener('click', toggleMenu);
+
+      });
+
+    </script>
+  </body>
+  </html>
